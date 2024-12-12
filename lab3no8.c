@@ -33,9 +33,10 @@ int main() {
   Second += S;
   Min();
   Minute += M;
-  if (Hour > 23) {
-    Hour = 0;
+  if (H > 23) {
+    H = 0;
   }
+  Hour += H;
   printf("Hour %d : Minute %d : Second : %d ",Hour,Minute,Second);
   return (0);
 }
